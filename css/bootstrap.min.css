@@ -6192,7 +6192,6 @@ button.list-group-item-info.active:focus,
 button.list-group-item-info.active:hover {
     color: #fff;
     background-color: #31708f;
-    border-color: #31708f
 }
 
 .list-group-item-warning {
@@ -6226,7 +6225,6 @@ button.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:hover {
     color: #fff;
     background-color: #8a6d3b;
-    border-color: #8a6d3b
 }
 
 .list-group-item-danger {
@@ -6260,7 +6258,6 @@ button.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:hover {
     color: #fff;
     background-color: #a94442;
-    border-color: #a94442
 }
 
 .list-group-item-heading {
@@ -6745,7 +6742,6 @@ button.list-group-item-danger.active:hover {
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    filter: alpha(opacity=20);
     opacity: .2
 }
 
@@ -6754,7 +6750,6 @@ button.list-group-item-danger.active:hover {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -6823,12 +6818,10 @@ button.close {
 }
 
 .modal-backdrop.fade {
-    filter: alpha(opacity=0);
     opacity: 0
 }
 
 .modal-backdrop.in {
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -6916,13 +6909,11 @@ button.close {
     word-spacing: normal;
     word-wrap: normal;
     white-space: normal;
-    filter: alpha(opacity=0);
     opacity: 0;
     line-break: auto
 }
 
 .tooltip.in {
-    filter: alpha(opacity=90);
     opacity: .9
 }
 
@@ -7245,7 +7236,6 @@ button.close {
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
     background-color: rgba(0, 0, 0, 0);
-    filter: alpha(opacity=50);
     opacity: .5
 }
 
@@ -7263,7 +7253,6 @@ button.close {
 .carousel-control:hover {
     color: #fff;
     text-decoration: none;
-    filter: alpha(opacity=90);
     outline: 0;
     opacity: .9
 }
@@ -7465,7 +7454,6 @@ button.close {
 }
 
 .text-hide {
-    color: transparent;
     text-shadow: none;
     background-color: transparent;
     border: 0

@@ -3114,35 +3114,6 @@ textarea.form-control {
     height: auto
 }
 
-@media screen and (-box-min-device-pixel-ratio:0) {
-    input[type=date].form-control,
-    input[type=time].form-control,
-    input[type=datetime-local].form-control,
-    input[type=month].form-control {
-        line-height: 34px
-    }
-    .input-group-sm input[type=date],
-    .input-group-sm input[type=time],
-    .input-group-sm input[type=datetime-local],
-    .input-group-sm input[type=month],
-    input[type=date].input-sm,
-    input[type=time].input-sm,
-    input[type=datetime-local].input-sm,
-    input[type=month].input-sm {
-        line-height: 30px
-    }
-    .input-group-lg input[type=date],
-    .input-group-lg input[type=time],
-    .input-group-lg input[type=datetime-local],
-    .input-group-lg input[type=month],
-    input[type=date].input-lg,
-    input[type=time].input-lg,
-    input[type=datetime-local].input-lg,
-    input[type=month].input-lg {
-        line-height: 46px
-    }
-}
-
 .form-group {
     margin-bottom: 15px
 }
@@ -3983,22 +3954,6 @@ fieldset[disabled] .btn-danger:hover {
     font-weight: 400;
     color: #337ab7;
     border-radius: 0
-}
-
-.btn-link,
-.btn-link.active,
-.btn-link:active,
-.btn-link[disabled],
-fieldset[disabled] .btn-link {
-    background-color: transparent;
-    box-shadow: none
-}
-
-.btn-link,
-.btn-link:active,
-.btn-link:focus,
-.btn-link:hover {
-    border-color: transparent
 }
 
 .btn-link:focus,
@@ -5977,17 +5932,12 @@ a.thumbnail:hover {
 
 .progress-bar-striped,
 .progress-striped .progress-bar {
-    background-image: -box-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    -box-background-size: 40px 40px;
     background-size: 40px 40px
 }
 
 .progress-bar.active,
 .progress.active .progress-bar {
-    -box-animation: progress-bar-stripes 2s linear infinite;
-    -o-animation: progress-bar-stripes 2s linear infinite;
     animation: progress-bar-stripes 2s linear infinite
 }
 
@@ -5996,8 +5946,6 @@ a.thumbnail:hover {
 }
 
 .progress-striped .progress-bar-success {
-    background-image: -box-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
 }
 
@@ -6006,8 +5954,6 @@ a.thumbnail:hover {
 }
 
 .progress-striped .progress-bar-info {
-    background-image: -box-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
 }
 
@@ -6016,8 +5962,6 @@ a.thumbnail:hover {
 }
 
 .progress-striped .progress-bar-warning {
-    background-image: -box-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
 }
 
@@ -6026,8 +5970,6 @@ a.thumbnail:hover {
 }
 
 .progress-striped .progress-bar-danger {
-    background-image: -box-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
 }
 
@@ -6836,22 +6778,15 @@ button.close {
     z-index: 1050;
     display: none;
     overflow: hidden;
-    -box-overflow-scrolling: touch;
     outline: 0
 }
 
 .modal.fade .modal-dialog {
     transition: transform .3s ease-out;
-    -box-transform: translate(0, -25%);
-    -ms-transform: translate(0, -25%);
-    -o-transform: translate(0, -25%);
     transform: translate(0, -25%)
 }
 
 .modal.in .modal-dialog {
-    -box-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    -o-transform: translate(0, 0);
     transform: translate(0, 0)
 }
 
@@ -6869,7 +6804,6 @@ button.close {
 .modal-content {
     position: relative;
     background-color: #fff;
-    -box-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #999;
     border: 1px solid rgba(0, 0, 0, .2);
@@ -7117,7 +7051,6 @@ button.close {
     word-wrap: normal;
     white-space: normal;
     background-color: #fff;
-    -box-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .2);
@@ -7263,36 +7196,6 @@ button.close {
     line-height: 1
 }
 
-@media all and (transform-3d),
-(-box-transform-3d) {
-    .carousel-inner>.item {
-        transition: transform .6s ease-in-out;
-        -box-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -box-perspective: 1000px;
-        perspective: 1000px
-    }
-    .carousel-inner>.item.active.right,
-    .carousel-inner>.item.next {
-        left: 0;
-        -box-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0)
-    }
-    .carousel-inner>.item.active.left,
-    .carousel-inner>.item.prev {
-        left: 0;
-        -box-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0)
-    }
-    .carousel-inner>.item.active,
-    .carousel-inner>.item.next.left,
-    .carousel-inner>.item.prev.right {
-        left: 0;
-        -box-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
-
 .carousel-inner>.active,
 .carousel-inner>.next,
 .carousel-inner>.prev {
@@ -7347,18 +7250,12 @@ button.close {
 }
 
 .carousel-control.left {
-    background-image: -box-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    background-image: -box-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
 }
 
 .carousel-control.right {
     right: 0;
     left: auto;
-    background-image: -box-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    background-image: -box-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
 }
 

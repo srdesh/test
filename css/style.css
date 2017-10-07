@@ -1,0 +1,1427 @@
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0
+}
+
+img {
+    border: 0
+}
+
+a,
+a:focus,
+a:hover {
+    color: #222;
+    text-decoration: none
+}
+
+ol,
+ul {
+    list-style-type: none
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.clr {
+    clear: both
+}
+
+body {
+    font-family: hog
+}
+
+a {
+    display: inline-block;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    transition: all linear .5s
+}
+
+.hmpp_one {
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    transition: all linear .5s
+}
+
+.pd0 {
+    padding: 0
+}
+
+.pd10 {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.subh {
+    background-color: #fff;
+    padding: 15px 0;
+    font-weight: 700
+}
+
+.subh .contr .sh_txt p {
+    font-size: 13px
+}
+
+.full_header {
+    background-color: rgba(255, 255, 255, .1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.full_header .navbar-default {
+    background-color: transparent;
+    border: none
+}
+
+.full_header .navbar {
+    min-height: 50px;
+    margin-bottom: 0;
+    border: none;
+    border-bottom: 1px solid transparent
+}
+
+.full_header .navbar .navbar-nav li a {
+    color: #fff;
+    padding: 17px 10px;
+    border-bottom: 2px solid transparent
+}
+
+.full_header .navbar-default .navbar-nav>li>a:hover {
+    color: #589def;
+    border-color: #0d51a2
+}
+
+.full_header .navbar-default .navbar-nav>.active>a,
+.full_header .navbar-default .navbar-nav>.active>a:focus,
+.full_header .navbar-default .navbar-nav>.active>a:hover {
+    color: #589def;
+    background-color: transparent;
+    border-color: #0d51a2
+}
+
+.full_banner {
+    position: relative
+}
+
+.banner {
+    background: linear-gradient(to right, rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .1) 100%), url(../img/bnr_bg.jpg) center no-repeat;
+    background-size: cover
+}
+
+.bnr_txt {
+    padding-top: 115px
+}
+
+.bnr_txt h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: #fff;
+    margin-bottom: 30px
+}
+
+.bnr_txt h1 span {
+    display: block;
+    margin-left: 80px;
+    margin-top: 18px
+}
+
+.bnr_txt h3 {
+    margin-left: 50px;
+    color: #000;
+    font-size: 18px;
+    font-family: w6;
+    padding: 15px 0 12px;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    margin-bottom: 140px
+}
+
+.bnr_txt h3:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, .6);
+    top: 0;
+    left: -40%;
+    z-index: -1
+}
+
+.bnr_txt h3 span {
+    display: block;
+    margin-top: 9px
+}
+
+.bnr_txt .bnr_ci {
+    border: 8px solid rgba(255, 255, 255, .7);
+    padding: 30px 25px;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fff;
+    margin-bottom: 30px;
+    display: inline-block;
+    float: right
+}
+
+.bnr_txt .bnr_ci h4 {
+    font-size: 21px;
+    margin-bottom: 10px
+}
+
+.bnr_txt .bnr_ci span {
+    font-size: 17px;
+    color: #7fceca
+}
+
+.bnr_txt .bnr_ci span:last-child {
+    color: #fff;
+    font-size: 15px
+}
+
+.bnr_txt .bnr_ci span i {
+    font-size: 20px
+}
+
+.fmb {
+    padding: 40px 0;
+}
+
+.fmb .mbl {
+    width: 100%;
+    padding: 8px 17px 0;
+    background-color: #ccc;
+    min-height: 500px;
+    border-radius: 40px
+}
+
+.fmb .mbl h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 12px
+}
+
+.fmb .mbl .mbmm {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 40px 0;
+    min-height: 400px
+}
+
+.fmb .mbl .mbmm h5 {
+    font-size: 17px;
+    font-family: osaka;
+    text-align: center;
+    background-color: #434343;
+    padding: 10px 0;
+    color: #fff
+}
+
+.fmb .mbl .mbmm ul li {
+    font-size: 17px;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-family: osaka
+}
+
+.fmb .mbl .mbmm ul li:after {
+    content: url(../img/menu-sh.png);
+    position: absolute;
+    width: 100%;
+    top: -4px;
+    left: 0
+}
+
+.fmb .mbl .mbmm ul li a {
+    padding: 11px 0 14px;
+    width: 100%;
+    font-weight: 700
+}
+
+.fmb .mbl .btt span {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer
+}
+
+.fmb .mbl .btt span:hover {
+    color: #fff;
+}
+
+.fmb .mbl .btt span i {
+    font-size: 29px;
+    margin-right: 8px
+}
+
+.fmb .mbllp {
+    margin-top: 40px
+}
+
+.fmb .mbllp .mbllp_one {
+    position: relative;
+    margin-bottom: 17px
+}
+
+.fmb .mbllp .mbllp_one img {
+    margin: 0 auto
+}
+
+.fmb .mbllp .mbllp_one .mbllp_one_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.fmb .mbllp .mbllp_one .mbllp_one_overlay .movtxt {
+    color: #fff;
+    border: 3px solid rgba(255, 255, 255, .4);
+    margin: 15px;
+    width: 88%;
+    height: 80%
+}
+
+.fmb .mbllp .mbllp_one .mbllp_one_overlay .movtxt .mbtx {
+    margin: 20px
+}
+
+.fmb .mbllp .mbllp_one .mbllp_one_overlay .movtxt h4 {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.fmb .mbllp .mbllp_one .mbllp_one_overlay .movtxt p {
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: 700
+}
+
+.fmb .mbr {
+    float: left;
+    width: 100%
+}
+
+.fmb .mbr .pagi {
+    margin-bottom: 55px;
+    font-size: 17px
+}
+
+.fmb .mbr .pagi a {
+    margin-left: 8px;
+    margin-right: 8px
+}
+
+.fmb .mbr .pagi a:first-child {
+    color: #8e8e8e
+}
+
+.fmb .mbr .pagi i {
+    font-size: 20px;
+    margin-top: 10px
+}
+
+.fmb .mbr .hmabt h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: osaka;
+    position: relative;
+    z-index: 1;
+    padding-top: 8px;
+    margin-bottom: 24px;
+    padding-left: 34px
+}
+
+.fmb .mbr .hmabt h2:after {
+    content: url(../img/abt-sh.png);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: -17px;
+    z-index: -1
+}
+
+.fmb .mbr .hmabt h2 span {
+    color: #0372ba
+}
+
+.fmb .mbr .hmabt div {
+    font-size: 17px;
+    margin-left: 35px;
+    font-weight: 700;
+    line-height: 26px
+}
+
+.fmb .mbr .hmabt div p:last-child {
+    margin-bottom: 20px
+}
+
+.hmchrt {
+    padding: 28px 34px;
+    background-color: #cde3f1;
+    border-radius: 10px;
+    margin: 10px 0
+}
+
+.hmchrt .hcrt {
+    padding: 4px 8px;
+    background-color: #fff;
+    border-radius: 7px;
+    min-height: 14px;
+    margin-bottom: 11px
+}
+
+.hmchrt .hcrt .hcrtd {
+    position: relative
+}
+
+.hmchrt .hcrt .hcrtd:after {
+    position: absolute;
+    content: "46.6%";
+    top: 0;
+    left: 0;
+    width: 70.6%;
+    font-size: 17px;
+    font-weight: 700;
+    height: auto;
+    background-color: #0372ba;
+    border-radius: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 20px;
+    text-align: right
+}
+
+.hmchrt .hcrt .hcrtd p {
+    font-size: 17px;
+    text-align: right
+}
+
+.fmb .mbr .hmchrt .chrt_2 .hcrtd:after {
+    width: 55%;
+    background-color: #1d89d0;
+    content: "35.7%"
+}
+
+.fmb .mbr .hmchrt .chrt_3 .hcrtd:after {
+    width: 40%;
+    background-color: #429dd9;
+    content: "20.2%"
+}
+
+.fmb .mbr .hmchrt .chrt_4 .hcrtd:after {
+    width: 35%;
+    background-color: #03ba80;
+    content: "18.2%"
+}
+
+.fmb .mbr .hmchrt .chrt_5 .hcrtd:after {
+    width: 30%;
+    background-color: #58cba6;
+    content: "14.9%"
+}
+
+.fmb .mbr .hmchrt .chrt_6 .hcrtd:after {
+    width: 27%;
+    background-color: #7cceb3;
+    content: "14.8%"
+}
+
+.fmb .mbr .hmchrt .chrt_7 .hcrtd:after {
+    width: 25%;
+    background-color: #9354b4;
+    content: "13.0%"
+}
+
+.fmb .mbr .hmchrt .chrt_8 .hcrtd:after {
+    width: 20%;
+    background-color: #aa6fc8;
+    content: "12.2%"
+}
+
+.fmb .mbr .hmchrt .chrt_9 .hcrtd:after {
+    width: 12%;
+    background-color: #cc84f1;
+    content: "5.1%"
+}
+
+.hmltxt {
+    padding: 0 0 0 42px
+}
+
+.hmltxt h3 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 700
+}
+
+.hmltxt h3 span {
+    display: block
+}
+
+.hmltxt ul li {
+    font-size: 17px;
+    font-weight: 700
+}
+
+.hmltxt ul li span p {
+    display: inline-block;
+    color: #0372ba
+}
+
+.hmltxt ul li span p.pc1 {
+    color: #03ba80
+}
+
+.hmltxt ul li span p.pc11 {
+    color: #58cba6
+}
+
+.hmltxt ul li span p.pc12 {
+    color: #7cceb3
+}
+
+.hmltxt ul li span p.pc2 {
+    color: #9354b4
+}
+
+.hmltxt ul li span p.pc21 {
+    color: #aa6fc8
+}
+
+.hmltxt ul li span p.pc22 {
+    color: #cc84f1
+}
+
+.hmltxt .hmltxts {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 35px;
+    display: inline-block;
+    margin-bottom: 50px
+}
+
+.hmltxt .hmltxts span {
+    color: #0372ba
+}
+
+.hms .hms_hed {
+    margin-bottom: 10px
+}
+
+.hms .hms_hed h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: osaka;
+    position: relative;
+    z-index: 1;
+    padding-top: 8px;
+    margin-bottom: 30px;
+    padding-left: 34px;
+    color: #3a3a3a
+}
+
+.hms .hms_hed h2:after {
+    content: url(../img/ser-sh.png);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: -35px;
+    z-index: -1
+}
+
+.hms .hms_hed h2 span {
+    color: #0372ba
+}
+
+.hms .hms_hed p {
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 40px;
+    display: block
+}
+
+.hmser ul li {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 10px
+}
+
+.hmser ul li .hmser_one img {
+    margin: 10px auto 0
+}
+
+.hmser ul li .hmser_one h4 {
+    font-size: 15px;
+    font-family: osaka;
+    font-weight: 700;
+    color: #008fc1;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.hmser ul li .hmser_one p {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.hmser p {
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 18px;
+    margin-top: 4px;
+    margin-bottom: 30px
+}
+
+.hms_hed2 h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: osaka;
+    position: relative;
+    z-index: 1;
+    padding-top: 8px;
+    margin-bottom: 27px;
+    padding-left: 15px
+}
+
+.hms_hed2 h2:after {
+    content: url(../img/hms-2.png);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: -25px;
+    z-index: -1
+}
+
+.hms_hed2 h2 span {
+    color: #0372ba
+}
+
+.hms_hed2 p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 22px;
+    margin-bottom: 10px
+}
+
+.hmpp {
+    padding: 15px 10px
+}
+
+.hmpp ul li {
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px 15px;
+    margin-bottom: 5px
+}
+
+.hmpp ul li .hmpp_one {
+    position: relative;
+    min-height: 150px
+}
+
+.hmpp ul li .hmpp_one:hover {
+    -webkit-box-shadow: 0 0 10px 1px gray;
+    box-shadow: 0 0 10px 1px gray
+}
+
+.hmpp ul li .hmpp_one img {
+    width: 100%
+}
+
+.hmpp ul li .hmpp_one p {
+    font-size: 12px;
+    color: #0372ba;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    width: 95%;
+    height: auto;
+    font-weight: 700
+}
+
+.hmpp ul li .hmpp_one p a {
+    color: #0372ba
+}
+
+.hmpp ul li .hmpp_one .p2 {
+    bottom: 2px
+}
+
+.hmpp>a {
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    margin: 16px 0 33px 15px
+}
+
+.t3bx {
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #dbdbdb;
+    margin: 0 25px 60px
+}
+
+.t3bx ul li {
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center
+}
+
+.hmotxt {
+    margin: 0 25px
+}
+
+.hmotxt .hms_hed3 {
+    margin-bottom: 10px
+}
+
+.hmotxt .hms_hed3 h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: osaka;
+    position: relative;
+    z-index: 1;
+    padding-top: 8px;
+    margin-bottom: 30px;
+    padding-left: 0
+}
+
+.hmotxt .hms_hed3 h2:after {
+    content: url(../img/hmotxt-sh.png);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: -50px;
+    z-index: -1
+}
+
+.hmotxt .hms_hed3 h2 span {
+    color: #0372ba
+}
+
+.hmotxt .hms_hed3>p {
+    font-size: 17px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 35px
+}
+
+.hmotxt .hmshtxt p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 700
+}
+
+.hmotxt>a {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 34px;
+    margin-bottom: 60px
+}
+
+.sub_footer {
+    padding: 20px 0 30px;
+    background-color: #f4f4f5
+}
+
+.sub_footer .sfb {
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 30px
+}
+
+.sub_footer .sf_one h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    position: relative
+}
+
+.sub_footer .sf_one h3:after {
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: 0;
+    width: 22px;
+    height: 4px;
+    background-color: #444
+}
+
+.sub_footer .sf_one h3 span {
+    display: block
+}
+
+.sub_footer .sf_one .sfm {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 600
+}
+
+.sub_footer .sf_one .sfm li a:hover {
+    color: #0372ba;
+    margin-left: 10px
+}
+
+.sub_footer .sf_one .sfm2 {
+    font-weight: 700;
+    margin-top: 10px
+}
+
+.sub_footer .sf_one .sfm2 li a:hover {
+    color: #0372ba;
+    margin-left: 10px
+}
+
+.sfbl {
+    padding-top: 20px;
+    font-weight: 700
+}
+
+.sfbl h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+.sfbr a {
+    font-size: 28px;
+    margin-left: 30px;
+    padding: 10px 40px;
+    background-color: #595757;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid #adadad
+}
+
+.sfbr a:hover {
+    color: #0372ba;
+    background-color: #efefef
+}
+
+.full_footer {
+    padding: 15px 0 20px;
+    font-family: osaka;
+    font-weight: 700;
+    font-size: 12px;
+    color: #595757
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:320px) and (max-width:360px) {
+    .navbar-nav {
+        margin: 7.5px -15px;
+        background-color: rgba(0, 0, 0, .83)
+    }
+    .nav>li {
+        text-align: center
+    }
+    .bnr_txt {
+        padding-top: 90px
+    }
+    .bnr_txt h1 {
+        font-size: 18px;
+        padding: 0 9px;
+        margin-bottom: 23px;
+        margin-left: 0;
+        text-align: center
+    }
+    .bnr_txt h3:after {
+        content: "";
+        width: 100%;
+        height: 100px;
+        background-color: rgba(255, 255, 255, .6);
+        top: 0;
+        left: -3%;
+        z-index: -1
+    }
+    .bnr_txt h3 {
+        margin-left: 2px;
+        color: #000;
+        font-size: 15px;
+        font-family: w6;
+        padding: 20px 2px 4px;
+        z-index: 1;
+        width: 98%;
+        margin: 0 auto 20px
+    }
+    .bnr_txt .bnr_ci {
+        border: 2px solid rgba(255, 255, 255, .7);
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .7);
+        margin-bottom: 20px
+    }
+    .bnr_txt .bnr_ci h4 {
+        font-size: 16px;
+        margin-bottom: 10px
+    }
+    .fmb {
+        padding: 10px 0
+    }
+    .fmb .mbl .mbmm {
+        border-radius: 30px;
+        padding: 30px 0;
+        min-height: 400px
+    }
+    .fmb .mbl .btt span {
+        font-size: 18px;
+        padding: 10px 0 8px;
+        display: block
+    }
+    .fmb .mbr .hmabt h2 {
+        font-size: 27px;
+        padding-top: 14px;
+        margin-bottom: 24px;
+        padding-left: 0
+    }
+    .fmb .mbr .hmabt div {
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: 700;
+        line-height: 24px
+    }
+    .fmb .mbr .pagi {
+        margin-bottom: 30px;
+        font-size: 17px
+    }
+    .hmchrt {
+        padding: 10px 3px;
+        border-radius: 10px;
+        margin: 0
+    }
+    .hmchrt .hcrt .hcrtd p {
+        font-size: 14px
+    }
+    .fmb .mbr .hmchrt .chrt_2 .hcrtd:after {
+        width: 44%
+    }
+    .hmchrt .hcrt .hcrtd:after {
+        width: 65.6%;
+        font-size: 14px;
+        border-radius: 20px;
+        padding: 0 11px
+    }
+    .hmchrt .hcrt {
+        padding: 4px;
+        border-radius: 7px;
+        min-height: 14px;
+        margin-bottom: 7px
+    }
+    .hmltxt {
+        padding: 0
+    }
+    .hmltxt h3 {
+        margin: 30px 0 20px;
+        font-size: 17px
+    }
+    .hmltxt ul li {
+        font-size: 14px;
+        margin-bottom: 5px
+    }
+    .hmltxt .hmltxts {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 35px
+    }
+    .hms .hms_hed h2 {
+        font-size: 30px;
+        padding-top: 10px;
+        margin-bottom: 26px;
+        padding-left: 25px
+    }
+    .hms .hms_hed p {
+        font-size: 15px;
+        margin-left: 0
+    }
+    .hmser ul li {
+        width: 100%;
+        padding: 0 10px;
+        margin-bottom: 20px
+    }
+    .hms_hed2 h2 {
+        font-size: 25px;
+        padding-top: 8px;
+        margin-bottom: 40px;
+        padding-left: 3px
+    }
+    .hmpp ul li {
+        width: 100%;
+        padding: 5px 10px
+    }
+    .hms_hed2 p {
+        font-size: 18px;
+        margin-left: 15px
+    }
+    .hmpp>p {
+        font-size: 18px;
+        margin: 15px 0 5px 0
+    }
+    .t3bx ul li {
+        width: 100%;
+        margin-bottom: 15px
+    }
+    .t3bx {
+        padding: 12px 5px;
+        border-radius: 10px;
+        margin: 0 5px 30px
+    }
+    .fmb .mbr .hmabt h2:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -21px;
+        background-image: url(../img/abt-sh.png);
+        background-size: 300px 50px;
+        width: 300px;
+        height: 50px;
+        display: inline-block
+    }
+    .hms .hms_hed h2:after {
+        content: "";
+        background-image: url(../img/ser-sh.png);
+        position: absolute;
+        background-size: 300px 50px;
+        width: 300px;
+        height: 50px;
+        top: 0;
+        left: -20px
+    }
+    .hms_hed2 h2:after {
+        content: "";
+        background-image: url(../img/hms-2.png);
+        position: absolute;
+        background-size: 300px 80px;
+        width: 310px;
+        height: 80px;
+        top: 0;
+        left: 0;
+        left: -30px
+    }
+    .hmotxt .hms_hed3 h2:after {
+        content: "";
+        position: absolute;
+        background-image: url(../img/hmotxt-sh.png);
+        background-size: 310px 140px;
+        width: 310px;
+        height: 140px;
+        top: 0;
+        left: 0;
+        left: -21px
+    }
+    .hmotxt .hmshtxt p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        margin-bottom: 5px
+    }
+    .hmotxt>p {
+        font-size: 20px;
+        margin: 30px 0
+    }
+    .sf_one {
+        margin-bottom: 40px
+    }
+    .full_header .navbar .navbar-nav li a {
+        padding: 12px 10px
+    }
+    .bnr_txt h1 span {
+        margin-left: 0;
+        margin-top: 10px
+    }
+    .hmotxt {
+        margin: 0 5px
+    }
+    .sub_footer .sf_one h3 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 15px;
+        position: relative
+    }
+    .sub_footer .sf_one .sfm {
+        margin-top: 10px;
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 16px
+    }
+    .sfbr a {
+        font-size: 28px;
+        margin-left: 5px;
+        padding: 8px;
+        border-radius: 6px;
+        margin-top: 17px;
+        min-width: 200px;
+        text-align: center
+    }
+}
+
+@media(min-width:360px) and (max-width:480px) {
+    .fmb .mbr .hmabt h2:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -21px;
+        background-image: url(../img/abt-sh.png);
+        background-size: 450px 50px;
+        width: 450px;
+        height: 50px;
+        display: inline-block
+    }
+    .hms .hms_hed h2:after {
+        content: "";
+        background-image: url(../img/ser-sh.png);
+        position: absolute;
+        background-size: 450px 50px;
+        width: 450px;
+        height: 50px;
+        top: 0;
+        left: -20px
+    }
+    .hms_hed2 h2:after {
+        content: "";
+        background-image: url(../img/hms-2.png);
+        position: absolute;
+        background-size: 470px 95px;
+        width: 470px;
+        height: 95px;
+        top: 0;
+        left: 0;
+        left: -30px
+    }
+    .hmotxt .hms_hed3 h2:after {
+        content: "";
+        position: absolute;
+        background-image: url(../img/hmotxt-sh.png);
+        background-size: 450px 140px;
+        width: 450px;
+        height: 140px;
+        top: 0;
+        left: 0;
+        left: -46px
+    }
+    .bnr_txt h1 {
+        font-size: 29px;
+        margin-left: 20px;
+        margin-bottom: 24px
+    }
+    .bnr_txt h3 {
+        margin-left: 50px;
+        font-size: 18px;
+        font-family: w6;
+        padding: 5px;
+        margin-bottom: 10px;
+        left: -5px;
+        height: 92px;
+        top: 0
+    }
+    .bnr_txt h3:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 95px;
+        background-color: rgba(255, 255, 255, .6);
+        top: 0;
+        left: -1%;
+        z-index: -1
+    }
+    .fmb .mbr .pagi {
+        margin-bottom: 20px;
+        font-size: 17px
+    }
+    .hmltxt .hmltxts {
+        font-size: 17px;
+        margin-top: 25px;
+        margin-bottom: 30px
+    }
+    .hms .hms_hed p {
+        font-size: 17px;
+        margin-left: 25px
+    }
+    .hmser ul li {
+        width: 50%;
+        padding: 0 10px
+    }
+    .hmser_one {
+        min-height: 230px
+    }
+    .hmpp ul li {
+        width: 65%;
+        padding: 5px 15px
+    }
+    .t3bx ul li {
+        width: 100%
+    }
+    .hmotxt .hms_hed3 h2:after {
+        background-image: url(../img/hmotxt-sh.png);
+        background-size: 450px 100px;
+        width: 450px;
+        height: 100px;
+        left: -46px
+    }
+    .hmotxt>p {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .fmb .mbr .hmabt h2:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -21px;
+        background-image: url(../img/abt-sh.png);
+        background-size: 450px 50px;
+        width: 450px;
+        height: 50px;
+        display: inline-block
+    }
+    .hms .hms_hed h2:after {
+        content: "";
+        background-image: url(../img/ser-sh.png);
+        position: absolute;
+        background-size: 450px 50px;
+        width: 450px;
+        height: 50px;
+        top: 0;
+        left: -20px
+    }
+    .hms_hed2 h2:after {
+        content: "";
+        background-image: url(../img/hms-2.png);
+        position: absolute;
+        background-size: 550px 50px;
+        width: 550px;
+        height: 50px;
+        top: 0;
+        left: 0;
+        left: -30px
+    }
+    .hmotxt .hms_hed3 h2:after {
+        content: "";
+        position: absolute;
+        background-image: url(../img/hmotxt-sh.png);
+        background-size: 550px 50px;
+        width: 550px;
+        height: 50px;
+        top: 0;
+        left: 0;
+        left: -46px
+    }
+    .bnr_txt h3:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        background-color: rgba(255, 255, 255, .6);
+        top: 0;
+        left: 0;
+        z-index: -1
+    }
+    .bnr_txt h1 {
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: 20px;
+        color: #fff;
+        margin-bottom: 20px
+    }
+    .bnr_txt h3 {
+        margin-left: 50px;
+        font-size: 18px;
+        margin-bottom: 40px
+    }
+    .fmb {
+        padding: 30px 0
+    }
+    .fmb .mbl {
+        padding: 0 5px;
+        border-radius: 30px
+    }
+    .fmb .mbr .pagi {
+        margin-bottom: 19px;
+        font-size: 15px
+    }
+    .fmb .mbr .hmabt h2 {
+        font-size: 30px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        padding-left: 15px
+    }
+    .fmb .mbr .hmabt div {
+        font-size: 14px;
+        margin-left: 14px;
+        font-weight: 700;
+        line-height: 22px
+    }
+    .fmb .mbl .mbmm ul li {
+        font-size: 14px
+    }
+    .fmb .mbl .mbmm ul li a {
+        padding: 12px 0
+    }
+    .hmchrt {
+        padding: 15px;
+        border-radius: 10px;
+        margin: 10px 0
+    }
+    .hmchrt .hcrt .hcrtd p {
+        font-size: 14px
+    }
+    .hmchrt .hcrt .hcrtd:after {
+        content: "46.6%";
+        width: 70.6%;
+        font-size: 14px;
+        border-radius: 20px;
+        padding: 0 20px
+    }
+    .hms .hms_hed h2 {
+        font-size: 30px;
+        padding-top: 10px
+    }
+    .hmchrt .hcrt {
+        padding: 4px 8px;
+        border-radius: 7px;
+        min-height: 14px;
+        margin-bottom: 5px
+    }
+    .hmltxt h3 {
+        margin-top: 20px;
+        font-size: 14px
+    }
+    .hmltxt {
+        padding: 0 0 0 15px
+    }
+    .hmltxt ul li {
+        font-size: 14px;
+        font-weight: 700
+    }
+    .hmltxt .hmltxts {
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 15px;
+        margin-bottom: 20px
+    }
+    .hms .hms_hed p {
+        font-size: 14px;
+        margin-left: 10px
+    }
+    .hmser ul li {
+        width: 20%;
+        padding: 0 5px
+    }
+    .hmser p {
+        font-size: 14px;
+        margin-left: 0;
+        margin-top: 2px;
+        margin-bottom: 15px
+    }
+    .hms_hed2 h2 {
+        font-size: 28px;
+        padding-top: 8px;
+        margin-bottom: 27px;
+        padding-left: 10px
+    }
+    .hms_hed2 p {
+        font-size: 18px;
+        margin-left: 14px
+    }
+    .hmpp {
+        padding: 9px 0
+    }
+    .hmpp ul li {
+        width: 33.333%;
+        padding: 5px
+    }
+    .hmpp ul li .hmpp_one p {
+        font-size: 10px;
+        color: #0372ba;
+        bottom: 2px;
+        left: 0;
+        width: 95%
+    }
+    .hmpp>p {
+        font-size: 16px;
+        margin: 10px 0 15px 0
+    }
+    .t3bx {
+        border-radius: 10px;
+        margin: 0 2px 25px
+    }
+    .hmotxt .hms_hed3 h2 {
+        font-size: 25px;
+        padding-top: 13px;
+        margin-bottom: 28px;
+        padding-left: 0
+    }
+    .hmotxt .hms_hed3>p {
+        font-size: 16px;
+        margin-bottom: 20px
+    }
+    .hmotxt>p {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 10px
+    }
+    .sub_footer .sfb {
+        padding-bottom: 15px
+    }
+    .sfbr a {
+        font-size: 20px;
+        margin-left: 13px;
+        padding: 8px 40px;
+        border-radius: 7px;
+        margin-top: 33px
+    }
+}

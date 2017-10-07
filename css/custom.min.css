@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'hog';
+    src: url("../fonts/HigashiOme-Gothic-1.3i.ttf");
+}
+
+@font-face{
+	font-family: 'w6';
+	src: url("../fonts/hirakakupro-w6-opentype");
+}
+
+/*-----------------------------
+|		   Color set            |
+-------------------------------*/
+
+.color-light-cyan{
+	color: #7fceca;
+}
+
+.color-white{
+	color: #ffffff;
+}
+
+.color-black{
+	color: #000000;
+}
+
+.color-deep-blue{
+	color: #0372ba;
+}
+
+.color-blue{
+	color: #1d89d0;
+}
+
+.color-light-blue{
+	color: #429dd9;
+}
+
+.color-deep-green{
+	color: #03ba80;
+}
+
+.color-green{
+	color: #58cba6;
+}
+
+.color-light-green{
+	color: #7cceb3;
+}
+
+.color-deep-violet{
+	color: #9354b4;
+}
+
+.color-violet{
+	color: #aa6fc8;
+}
+
+.color-light-violet{
+	color: #cc84f1;
+}
+
+/*-----------------------------
+|		   Icon set            |
+-------------------------------*/
+
+.icon-phone:after{
+	content: url("../img/phone.png");
+}
+
+.icon-arrow-up:after{
+	content: url("../img/arrow-up-w.png");
+}
+
+.icon-arrow-right:after{
+	content: url("../img/arrow-right.png");
+}
+
+/*-----------------------------
+|			   Body            |
+-------------------------------*/
+body,html{
+	height: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-family: 'HigashiOme', arial;
+	font-size: 14px;
+}
+
+/*-----------------------------
+|			   Header            |
+-------------------------------*/
+.top-head-bar{
+	margin-bottom: 0;
+	text-align: center;
+	border: 0;
+	border-radius: 0;
+	background-color: #ffffff;
+}
+
+.top-head-title{
+	font-family: 'HigashiOme';
+	font-weight: 700;
+	margin: 15px 0px 0px 10px;
+}
+
+
+.bottom-head-bar{
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-default .navbar-nav li a, 
+.navbar-default .navbar-nav .active a{
+	font-family: 'HigashiOme';
+	font-weight: bold;
+	padding: 20px;
+}
+
+.navbar-default .navbar-nav .active a, 
+.navbar-default .navbar-nav .active a:hover, 
+.navbar-default .navbar-nav .active a:focus{
+	color: #589def;
+	border-bottom: 2px solid #0d51a2;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #ffffff;
+	background-color: transparent;
+}
+ 
+.navbar-default .navbar-nav li a:hover, 
+.navbar-default .navbar-nav li a:focus{
+	color: #589def;
+	border-bottom: 2px solid #0d51a2;
+	background-color: transparent;
+}
+
+.background{
+	background-color: #000000;
+	transition: 1s;
+	border: 0;
+}
+
+/*-----------------------------
+|			Hero-image         |
+-------------------------------*/
+.hero-image {
+  background-image: url("../img/hero-img.jpg");
+  height: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.shade{
+	background: linear-gradient(0deg, transparent, #000000);
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+.hero-content{
+	margin-top: -15%;
+}
+
+.hero-title{
+	font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 0px 20px #000000;
+    margin-bottom: 30px;
+    z-index: 999;
+    position: relative;
+}
+
+.hero-title span{
+	display: block;
+	margin-left: 80px;
+	margin-top: 18px;
+}
+
+
+.sub-title{
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 15px 0px 0px 12px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 140px;
+}
+
+.sub-title:after{
+	content: "";
+    position: absolute;
+    width: 110%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, .6);
+    top: 0;
+    bottom: 0;
+ 	right: 0;
+    left: -40%;
+    z-index: -1;
+}
+
+
+.sub-title span{
+	display: block;
+}
+
+.other-info-box{
+	border: 8px solid rgba(255,255,255,.7);
+	padding: 25px;
+	padding-top: 15px;
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	margin-bottom: 30px;
+	float: right;
+}
+
+.other-info-sub-title{
+	font-size: 16px;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+
+@media (max-width: 768px){
+	.navbar-default .navbar-toggle,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus{
+		background-color: transparent;
+		border: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar:hover{
+		background-color: #ffffff;
+	}
+
+	.top-head-title{
+		font-size: 12px;
+		margin: 15px 0px 15px 0px;
+	}
+
+	.hero-content{
+		margin-top: -30%;
+	}
+	.hero-title{
+		font-size: 16px;
+	}
+	.hero-title span{
+		display: block;
+		margin-left: 0px;
+	}
+	.sub-title{
+	    color: #000;
+	    font-weight: 700;
+	    font-size: 12px;
+	    padding: 15px 0px 0px 12px;
+	    position: relative;
+	    z-index: 1;
+	    margin-bottom: 20px;
+	    text-shadow: 0px 0px 1px #000000;
+	}
+
+	.sub-title:after{
+		content: "";
+	    position: absolute;
+	    width: 100%;
+	    height: 80px;
+	    background-color: rgba(255, 255, 255, .6);
+	    top: 0;
+	    bottom: 0;
+	 	right: 0;
+	    left: 0;
+	    z-index: -1;
+	}
+	.other-info-box{
+		width: 100%;
+	}
+	.other-info-box h3{
+		font-size: 14px;
+	}
+	.other-info-sub-title{
+		font-size: 12px;
+	}
+}
+
+/*-----------------------------
+|			   Body            |
+-------------------------------*/
+.btt span:hover{
+	color: #000000;
+}

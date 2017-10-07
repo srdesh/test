@@ -3507,11 +3507,6 @@ textarea.input-lg {
     .form-inline .radio label {
         padding-left: 0
     }
-    .form-inline .checkbox input[type=checkbox],
-    .form-inline .radio input[type=radio] {
-        position: relative;
-        margin-left: 0
-    }
     .form-inline .has-feedback .form-control-feedback {
         top: 0
     }
@@ -4478,14 +4473,6 @@ tbody.collapse.in {
     left: auto
 }
 
-[data-toggle=buttons]>.btn input[type=checkbox],
-[data-toggle=buttons]>.btn input[type=radio],
-[data-toggle=buttons]>.btn-group>.btn input[type=checkbox],
-[data-toggle=buttons]>.btn-group>.btn input[type=radio] {
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-}
-
 .input-group {
     position: relative;
     display: table;
@@ -4603,11 +4590,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     padding: 10px 16px;
     font-size: 18px;
     border-radius: 6px
-}
-
-.input-group-addon input[type=checkbox],
-.input-group-addon input[type=radio] {
-    margin-top: 0px;
 }
 
 .input-group .form-control:first-child,
